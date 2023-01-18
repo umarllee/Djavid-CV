@@ -1,0 +1,24 @@
+::ng-deep .mdc-linear-progress__bar-inner {
+    border-color: #e65c4f !important;
+    // height: 8px !important;
+}
+
+::ng-deep .mdc-linear-progress__bar-inner {
+    border-top-width: var(--mdc-linear-progress-track-height, 6px) !important;
+}
+
+::ng-deep .mdc-linear-progress {
+    height: var(--mdc-linear-progress-track-height, 6px) !important;
+}
+
+::ng-deep .mat-mdc-progress-bar .mdc-linear-progress__buffer-bar {
+    background-color: rgba(121, 137, 227, 0.25);
+}
+
+// ::ng-deep .mat-tooltip{
+//     background-color: #326789 !important;
+// }
+
+::ng-deep .mdc-tooltip__surface {
+    background-color: #326789 !important;
+}

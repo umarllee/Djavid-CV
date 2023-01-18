@@ -1,0 +1,81 @@
+.header {
+    background-color: #326789;
+    height: 7vh;
+    line-height: 9vh;
+}
+
+li {
+    text-align: center;
+
+}
+
+.header a {
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgb(0, 149, 255);
+    ;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    // width: 100%;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header a:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.percentCycle {
+    background-color: white;
+    border: 2px solid #e65c4f;
+    color: #326789;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+}
+
+.social a {
+    // height: 26% !important;
+    color: #e65c4f;
+
+}
+
+.social span {
+    background-color: #e9eef4;
+    border-radius: 5px;
+    // padding: 10px;
+}
+
+.social a:hover {
+    // height: 40% !important;
+    color: #326789;
+}
+
+.footer {
+    background-color: #245373;
+    color: #fff;
+    height: 14vh;
+    position: fixed;
+    bottom: 0;
+    // line-height: 9vh;
+}
+
+::ng-deep .mat-tooltip {
+    font-size: 12px;
+    background-color: #1A9CC9;
+}
