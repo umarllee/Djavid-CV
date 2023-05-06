@@ -42,12 +42,12 @@ ul {
     align-items: center;
 }
 
-.social {
-    position: absolute;
-    bottom: 0;
-    height: 10%;
-    width: 100%;
-}
+// .social {
+//     position: absolute;
+//     bottom: 0;
+//     height: 10%;
+//     width: 100%;
+// }
 
 .social a {
     // height: 26% !important;
@@ -69,7 +69,8 @@ ul {
 .footer {
     background-color: #245373;
     color: #fff;
-    height: 14vh;
+    // height: 14vh;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     // line-height: 9vh;
