@@ -1,5 +1,5 @@
 ::ng-deep .mdc-linear-progress__bar-inner {
-    border-color: #e65c4f !important;
+    border-color: #ffb703 !important;
     // height: 8px !important;
 }
 
@@ -23,8 +23,12 @@
     background-color: #326789 !important;
 }
 
-.footerIcon{
-    border: 2px solid #fff; border-style: dashed; width: 70px; height: 70px; border-radius: 50%; display: flex; justify-content: center; align-items: center;
+.dtWord{
+    color: #ffb703; font-size: 18px;
+}
+
+.dtLine{
+    height: 10px; background-color: #ffb703; margin-left: auto; margin-right: 10px; max-width: 105px;
 }
 
 .manCon{
@@ -33,4 +37,19 @@
     border-right: 1px solid rgb(226, 226, 226);
     object-fit: cover;
     position: relative;
+}
+
+.manLogo{
+    width: 86%; margin: 0 auto; max-width: 300px;
+}
+
+.itemCon1{
+    margin:0 ;border-right: 1px solid rgb(226, 226, 226)
+}
+
+.commonCard{
+    margin: 0;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #966e09;
 }
